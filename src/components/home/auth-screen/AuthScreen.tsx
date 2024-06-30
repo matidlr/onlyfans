@@ -2,6 +2,7 @@ import UnderlinedText from "@/components/decorators/UnderlinedText"
 import HeroSection from "./HeroSection"
 import TodaysHighlight from "./TodaysHighlight"
 import RotatedText from "@/components/decorators/RotatedText"
+import MasonaryGrid from "./MasonaryGrid"
 
 
 const AuthScreen = () => {
@@ -26,6 +27,8 @@ const AuthScreen = () => {
                 <p className='text-2xl md:text-5xl text-center tracking-tighter font-bold'>
                     Meet the <RotatedText>Stars</RotatedText> of Our Farm
                 </p>
+
+                <MasonaryGrid />
             </div>
           </div>
         </div>
