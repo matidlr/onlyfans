@@ -1,5 +1,7 @@
 import UnderlinedText from "@/components/decorators/UnderlinedText"
 import HeroSection from "./HeroSection"
+import TodaysHighlight from "./TodaysHighlight"
+import RotatedText from "@/components/decorators/RotatedText"
 
 
 const AuthScreen = () => {
@@ -15,6 +17,17 @@ const AuthScreen = () => {
 						</UnderlinedText>
             <span className='text-2xl md:text-4xl ml-1'>👇</span>
           </p>
+
+          {/* Featured Post */}
+          <div className="flex flex-col gap-10 mt-10">
+            <TodaysHighlight />
+
+            <div className="mt-24">
+                <p className='text-2xl md:text-5xl text-center tracking-tighter font-bold'>
+                    Meet the <RotatedText>Stars</RotatedText> of Our Farm
+                </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
