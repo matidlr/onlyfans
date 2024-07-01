@@ -3,6 +3,7 @@ import HeroSection from "./HeroSection"
 import TodaysHighlight from "./TodaysHighlight"
 import RotatedText from "@/components/decorators/RotatedText"
 import MasonaryGrid from "./MasonaryGrid"
+import Features from "./Features"
 
 
 const AuthScreen = () => {
@@ -30,6 +31,8 @@ const AuthScreen = () => {
 
                 <MasonaryGrid />
             </div>
+
+            <Features />
           </div>
         </div>
       </div>
